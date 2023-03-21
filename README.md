@@ -35,6 +35,19 @@ gitout -dir=D:/www/XXX -version=XXX_V1.0.5 -currentId=6f202419 -lastId=64b51dad 
 
 
 
+#### 下载
+
+你可以下载源码并自行构建
+
+```
+go build -ldflags="-w -s" -o gitout.exe main.go
+```
+
+也可以从以下地址下载已构建好的版本：
+
+- [gitout Download Page (GitHub release)](https://github.com/YuuYong/gitout/releases)
+
+
 ####  参与贡献
 
 1. Fork 本仓库
